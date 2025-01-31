@@ -1,0 +1,42 @@
+/* Estilo general para el contenedor del reCAPTCHA */
+.goog-inline-block {
+    position: relative;
+    display: inline-block;
+}
+
+/* Compatibilidad con versiones antiguas de IE */
+* html .goog-inline-block {
+    display: inline;
+}
+
+*:first-child+html .goog-inline-block {
+    display: inline;
+}
+
+/* Estilo de la casilla de verificación */
+.recaptcha-checkbox {
+    border: none;
+    font-size: 1px;
+    height: 28px;
+    margin: 4px;
+    width: 28px;
+    overflow: visible;
+    outline: none;
+    vertical-align: text-bottom;
+}
+
+/* Estilo del borde de la casilla de verificación */
+.recaptcha-checkbox-border {
+    border-radius: 2px; /* Redondear las esquinas */
+    background-color: #fff;
+    border: 2px solid #c1c1c1;
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    z-index: 1;
+}
+
+/* Animación del borde (si se desea implementar) */
+.recaptcha-checkbox-borderAnimation {
+    background-image: url(data:image/png;base64,...);
+}
